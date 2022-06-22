@@ -43,7 +43,7 @@ main #the-image{
     opacity: 0.2;
 }
 
-main .centered{
+main .centered, main .centered-vn{
     font-size: 4rem;
     font-family: Helvetica, Times, serif;
     position: absolute;
@@ -142,6 +142,10 @@ footer #footer-line {
     main .centered{
         font-size: 2rem;
     }
+    
+    main .centered-vn{
+        font-size: 1.5rem;
+    }    
 
     main #sub-head{
         font-size: 1.15rem;
