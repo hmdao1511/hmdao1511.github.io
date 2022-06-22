@@ -149,6 +149,7 @@ footer #footer-line {
 
     main #my-post-button{
         font-size: 1rem;
+        transform: translate(-50%, 120%);
     }
 
     main .main-article h1{
@@ -156,6 +157,13 @@ footer #footer-line {
     }
     main .main-article p{
         font-size: 1.3rem;
+    }
+    
+    footer #image-icon{
+        width: 20vw; 
+        height: 20vw; 
+        margin-left: 40vw; 
+        margin-right: 40vw;
     }
     
     footer #image-icon img{
