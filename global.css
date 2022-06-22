@@ -75,16 +75,6 @@ main #my-post-button{
     text-decoration: none;
     background-color: #2f3640;
 }
-main #button-return a{
-    color: white;
-    margin-top: 1em;
-    margin-bottom: 5vh;
-    padding: 1em 1em;
-    font-size: 1rem;
-    text-decoration: none;
-    background-color: #2f3640;
-    position: fixed;
-}
 
 main #button-return:hover a, main #my-post-button:hover{
     background-color: #e84118; /* For changing the color of the link's background whenever the mouse is hovered through that block*/
@@ -150,19 +140,15 @@ footer #footer-line {
         font-size: 0.9rem;
     }
     main .centered{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     main #sub-head{
-        font-size: 1.35rem;
+        font-size: 1.15rem;
     }
 
     main #my-post-button{
-        font-size: 1.25rem;
-    }
-
-    main #button-return a{
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
     main .main-article h1{
@@ -170,5 +156,10 @@ footer #footer-line {
     }
     main .main-article p{
         font-size: 1.3rem;
+    }
+    
+    footer #image-icon img{
+        width: 20vw; 
+        height: 20vw;
     }
 }
