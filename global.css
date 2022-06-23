@@ -139,19 +139,19 @@ footer #footer-line {
         font-size: 0.9rem;
     }
     main .centered{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
     
     main .centered-vn{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }    
 
     main #sub-head{
-        font-size: 1.15rem;
+        font-size: 0.9rem;
     }
 
     main #my-post-button{
-        font-size: 1rem;
+        font-size: 0.9rem;
         transform: translate(-50%, 120%);
     }
 
