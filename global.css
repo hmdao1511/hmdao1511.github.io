@@ -130,7 +130,6 @@ footer #footer-line {
 
 @media screen and (max-width: 730px){
     nav #main-menu {
-        /*Helloo*/
         display: flex; /* Displaying all links in the nav bar within a single line*/
         flex-direction: column;
         text-align: center;
@@ -161,7 +160,6 @@ footer #footer-line {
     }
     main .main-article p{
         font-size: 1rem;
-        color: #e84118;
     }
     
     footer #image-icon{
