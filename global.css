@@ -140,19 +140,22 @@ footer #footer-line {
     }
     main .centered{
         font-size: 1.4rem;
+        transform: translate(-50%, -180%);
     }
     
     main .centered-vn{
         font-size: 1.4rem;
+        transform: translate(-50%, -180%);
     }    
 
     main #sub-head{
         font-size: 0.9rem;
+        transform: translate(-50%, -70%);
     }
 
     main #my-post-button{
         font-size: 0.9rem;
-        transform: translate(-50%, 120%);
+        transform: translate(-50%, 80%);
     }
 
     main .main-article h1{
