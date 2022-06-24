@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="../../stylesheets/postgeneral.css">
+    <style>
+        main{
+            font-family: Helvetica, Times, serif;
+            text-align: justify;
+        }
+
+        main p, main h1{
+            margin-left:20vw; 
+            margin-right: 20vw; 
+            margin-bottom: 5vh; 
+        }
+
+        main h1{
+            margin-top: 5vh;
+            font-size: 3.5rem;
+        }
+
+        main p{
+            font-size: 1.5rem;
+        }
+
+        main #subheading{
+            color: gray;
+        }
+
+        main #date-and-time{
+            text-align: right;
+        }
+
+        @media screen and (max-width: 900px){
+            main h1{
+                font-size: 1.7rem;
+            }
+
+            main p{
+                font-size: 0.8rem;
+            }
+        }
+
+    </style>
     <title>Welcome!</title>
 </head>
 <body>
-    
+    <nav>
+        <ul id="main-menu">
+            <li>
+                <a href="../../index-vietnamese.html">Tiếng Việt</a>
+            </li>
+            <li>
+                <a href="../../index.html">Homepage</a>
+            </li>
+            <li>
+                <a href="../aboutme.html">About Me</a>
+            </li>
+            <li>
+                <a href="../mypost.html">My Posts</a>
+            </li>
+            <li>
+                <a href="../japanese.html">Japanese-related posts</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Hello World!</h1>
+        <p id="subheading">The dawn of my posts ~ </p>
+        <p id="date-and-time">9:31 AM - 24/6/2022</p>
+        <p>Welcome to my very first post in this blog. I know this is just a small annoucement to make but it means a lot to me, as I can now create a simple blog after self-studying from a YouTube video (sadly I'm not at a professional level of web design :[ ). With all of my energy, I'll try to update this blog as much as I can. There might be weeks (or even months) I won't be posting anything due to me being busy dealing with deadlines and assignments. Once I have time, uploading a post will be a piece of cake!</p>
+        <p>Oh, and one more thing that's worth noting: All new posts will be marked as "New" within 2 days, then the mark will disappear after that.</p>
+        <p>Happy reading!</p>
+    </main>
+    <footer>
+        <hr id="line-break">
+        <a id="image-icon" href="https://github.com/hmdao1511"><img src="../../images/logogithub.png" alt="GitHub Logo"></a>
+        <p id="footer-line"><b>&copy; 陶海明 , 2022</b></p>
+    </footer>
 </body>
 </html>
