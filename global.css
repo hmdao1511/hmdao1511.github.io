@@ -36,11 +36,13 @@ main .container{
     position: relative;
     text-align: center;
     margin-bottom: 5vh;
+    min-height: 400px;
 }
 main #the-image{
     height: 60vh;
     width: 100vw;
     opacity: 0.2;
+    min-height: 400px;
 }
 
 main .centered, main .centered-vn{
@@ -128,7 +130,7 @@ footer #footer-line {
     margin-bottom: 2vh;
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 900px){
     nav #main-menu {
         display: flex; /* Displaying all links in the nav bar within a single line*/
         flex-direction: column;
