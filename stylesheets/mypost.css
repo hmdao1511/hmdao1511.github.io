@@ -1,0 +1,35 @@
+main #title {
+    margin-top: 5vh;
+    text-align: center;
+    font-family: Helvetica, Times, serif;
+}
+main #post-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 40px;
+    /* background-color: red; */
+}
+
+main #post-container .post-panel{
+    padding: 30px 40px;
+    border: 2px solid gray;
+    width: 60vw;
+    margin-bottom: 5vh;
+}
+
+main .post-panel a, main .post-panel p{
+    font-family: Helvetica, Times, serif;
+}
+
+main .post-panel a{
+    color: darkblue;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+main .post-panel a:hover{
+    color: brown;
+}
