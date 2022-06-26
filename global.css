@@ -162,9 +162,19 @@ footer #footer-line {
 
     main .main-article h1{
         font-size: 1.7rem;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
     main .main-article p{
         font-size: 0.8rem;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    
+    footer #line-break{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        width: 80vw;
     }
     
     footer #image-icon{
